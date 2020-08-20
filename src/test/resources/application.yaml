@@ -1,0 +1,7 @@
+application:
+  name: divided-lock
+  package: dev.xethh.toolkits.divided-lock
+spring:
+  application:
+    name: ${application.name}
+
