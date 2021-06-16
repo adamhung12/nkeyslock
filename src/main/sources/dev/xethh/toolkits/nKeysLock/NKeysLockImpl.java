@@ -15,7 +15,7 @@ public class NKeysLockImpl implements NKeysLock {
     /**
      * Set storing all the unlock keys to be remove
      */
-    private Set<UnlockKey> locks = new HashSet();
+    private Set<UnlockKey> locks = new HashSet<>();
 
     /**
      * Synchronized operation

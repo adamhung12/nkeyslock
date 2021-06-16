@@ -6,7 +6,7 @@
 
   <groupId>dev.xethh.toolkits</groupId>
   <artifactId>NKeysLock</artifactId>
-  <version>0.1</version>
+  <version>0.3</version>
 
   <name>NKeysLock</name>
 
@@ -177,12 +177,6 @@
             <id>sign-artifacts</id>
             <phase>verify</phase>
             <goals><goal>sign</goal></goals>
-            <configuration>
-              <gpgArguments>
-                <arg>--pinentry-mode</arg>
-                <arg>loopback</arg>
-              </gpgArguments>
-            </configuration>
           </execution>
         </executions>
       </plugin>

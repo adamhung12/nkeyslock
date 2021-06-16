@@ -5,5 +5,5 @@ import java.util.function.Consumer;
 /**
  * Listener interface for the multiple lock status change
  */
-interface LockStatusListener extends Consumer<LockStatus> {
+public interface LockStatusListener extends Consumer<LockStatus> {
 }
